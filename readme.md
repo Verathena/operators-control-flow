@@ -1,9 +1,10 @@
 1) & 2). List the symbols for each of the below Javascript operators:
 1. Arithmetic Operators: 
-    +, -, *, **, /, %, ++, -- \\
+    +, -, *, **, /, %, ++, --  
     
-    Examples\\  
-``` JavaScript
+Examples  
+    ``` 
+    JavaScript
     let a = 2;
     let b = 3;
     let c = 5;
@@ -37,26 +38,28 @@ Examples
     console.log(r /= 1); console.log(q /= 2)  
     console.log(r %= 2); console.log(t %= 3)  
     console.log(q **= 2); console.log(q **= 4)  
+    ```
 
     
 3. Comparison Operators: 
-    ``` JavaScript
+    ``` 
+    JavaScript
     let x = 8;
     let y = 10;    
     ```
-    ==	_e.g._ x == 8; y == 10 \\  
-    ===	_e.g._ 5 === 5; 6 === 6	 \\	  
-    !=	_e.g._ x != 5; y != 6	 \\  
-    !==	e.g x !== 'x'; y !== '10'	 \\  
-    > _e.g._ y > 8; x > 4 \\  
-    < _e.g._ x < 10, y < 20 \\  
-    >= _e.g._ x >= 8, y >= 10	\\  
-    <= _e.g._ x <= 8; y <= 10 \\  
+    ==	_e.g._ x == 8; y == 10  
+    ===	_e.g._ 5 === 5; 6 === 6	 	  
+    !=	_e.g._ x != 5; y != 6	   
+    !==	e.g x !== 'x'; y !== '10'	  
+    > _e.g._ y > 8; x > 4    
+    < _e.g._ x < 10, y < 20   
+    >= _e.g._ x >= 8, y >= 10	  
+    <= _e.g._ x <= 8; y <= 10   
 
 4. Logical Operators: 
-    && _e.g._ alert(true && true)//true;  alert(false && false) // false \\  
-    || _e.g._ alert(true || true) //true;  alert(false || false) //true \\  
-    ! _e.g._ alert(!true) // false; alert(!false) //true \\  
+    && _e.g._ alert(true && true)//true;  alert(false && false) // false   
+    || _e.g._ alert(true || true) //true;  alert(false || false) //true   
+    ! _e.g._ alert(!true) // false; alert(!false) //true   
 
 5. Bitwise Operators: 
     &	 
@@ -67,7 +70,8 @@ Examples
 
 
 4.  What is the result when the following program is executed?  
-``` JavaScript
+    ``` 
+    JavaScript
     for (let i=1; i<20; i+=7) {
     console.log(i)
     }  
