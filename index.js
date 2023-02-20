@@ -28,3 +28,19 @@ if (classGroup = Arts) {
 
 //QUESTION 5
 
+function findPwr(number) {
+  let pwr = Math.pow(2, Math.round(Math.log2(number)));
+  if (Math.abs(number - pwr) > Math.abs(number - 2 * pwr)) {
+    pwr *= 2;
+  }
+  return pwr;
+}
+
+let number = 48;
+let pwr = findPwr(number);
+console.log(`The number ${pwr} is the power of 2 nearest to ${number}.`);
+
+number = 50;
+pwr = findPwr(number);
+console.log(`The number ${pwr} is the power of 2 nearest to ${number}.`);
+
