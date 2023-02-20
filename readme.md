@@ -2,9 +2,9 @@
 1. Arithmetic Operators: 
     +, -, *, **, /, %, ++, --  
     
-Examples  
-    ``` 
-    JavaScript
+    Examples  
+    
+    ```  
     let a = 2;
     let b = 3;
     let c = 5;
@@ -18,19 +18,20 @@ Examples
     console.log(a++); console.log(b++); 
     console.log(a--); console.log(b--);  
     ```
+  
     
  
 2. Assignment Operators: 
     =, +=, -=, *=, /=, %=, **=	
 
-Examples
+    Examples
+    
     ```
-    JavaScript
     let p = 1;  
     let q = 2;  
     let r = 3; 
     let s = 1;
-    let t = 7
+    let t = 7;
 
     console.log(p = s); console.log(q = 2)  
     console.log(p += 5); console.log(q += 4)  
@@ -42,11 +43,12 @@ Examples
 
     
 3. Comparison Operators: 
-    ``` 
-    JavaScript
+
+    ```  
     let x = 8;
     let y = 10;    
     ```
+    
     ==	_e.g._ x == 8; y == 10  
     ===	_e.g._ 5 === 5; 6 === 6	 	  
     !=	_e.g._ x != 5; y != 6	   
@@ -70,8 +72,7 @@ Examples
 
 
 4.  What is the result when the following program is executed?  
-    ``` 
-    JavaScript
+    ```JavaScript
     for (let i=1; i<20; i+=7) {
     console.log(i)
     }  
